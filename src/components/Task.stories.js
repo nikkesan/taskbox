@@ -6,7 +6,7 @@ import Task from "./Task";
 export default {
   component: Task,
   title: "Task",
-  //Our exports that end in "Data" are not stories.
+  // Our exports that end in "Data" are not stories.
   excludeStories: /.*Data$/,
 };
 
@@ -14,7 +14,7 @@ export const taskData = {
   id: "1",
   title: "Test Task",
   state: "TASK_INBOX",
-  updateAt: new Date(2018, 0, 1, 9, 0),
+  updatedAt: new Date(2018, 0, 1, 9, 0),
 };
 
 export const actionsData = {
